@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  background-color: #7ec0e4;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+  color: #301781;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: #615dec;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #615dec;
+}
+
+/***CLASS SELECTORS***/
+.top-container {
+  background-color: #7ec0e4;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  padding-top: 25px;
+}
+
+.nerd {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skills {
+  position: relative;
+}
+
+.profile-photo {
+  border-radius: 75%;
+}
+
+.headline {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.headphones-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.game-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom: 50px;
+}
+
+/***ID SELECTORS***/
